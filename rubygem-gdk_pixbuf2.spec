@@ -4,12 +4,12 @@
 Summary:	Ruby binding of GdkPixbuf-2.x
 Name:		rubygem-%{rbname}
 
-Version:	1.1.5
-Release:	8
+Version:	2.2.0
+Release:	1
 Group:		Development/Ruby
 License:	GPLv2+ or Ruby
 URL:		http://ruby-gnome2.sourceforge.jp/
-Source0:	http://rubygems.org/gems/%{rbname}-%{version}.gem
+Source0:	http://rubygems.org/gems/gdk_pixbuf2-2.2.0.gem
 BuildRequires:	rubygems 
 BuildRequires:  rubygem(glib2)
 BuildRequires:  ruby-devel
@@ -55,7 +55,3 @@ Development files for %{name}.
 
 %files devel
 %{ruby_sitearchdir}/*.h
-
-
-%changelog
-
