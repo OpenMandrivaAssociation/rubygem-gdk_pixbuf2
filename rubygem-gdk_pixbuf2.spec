@@ -4,8 +4,8 @@
 Summary:	Ruby binding of GdkPixbuf-2.x
 Name:		rubygem-%{rbname}
 
-Version:	2.2.0
-Release:	3
+Version:	2.2.4
+Release:	1
 Group:		Development/Ruby
 License:	GPLv2+ or Ruby
 URL:		http://ruby-gnome2.sourceforge.jp/

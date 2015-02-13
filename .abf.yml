@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   gdk_pixbuf2-2.2.0.gem: 95e52080dc8b44cea73906e6c601bcccd4652f41
+sources:
+  gdk_pixbuf2-2.2.4.gem: 86d93dc3bbbd12c17c755228ac13613657c0dc1b
