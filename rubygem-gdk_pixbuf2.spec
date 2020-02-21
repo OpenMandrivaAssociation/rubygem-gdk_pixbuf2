@@ -12,13 +12,8 @@ URL:		http://ruby-gnome2.sourceforge.jp/
 Source0:	http://rubygems.org/gems/%{gem_name}-%{version}.gem
 BuildRequires:	rubygems 
 BuildRequires:  rubygems-devel
-#BuildRequires:  rubygem-glib2-devel
 BuildRequires:  rubygem-pkg-config
-#BuildRequires:  rubygem-cairo-devel
-#BuildRequires:  ruby-devel
-#BuildRequires:  pkgconfig(gtk+-2.0)
 BuildRequires:	pkgconfig(gdk-pixbuf-2.0)
-#BuildRequires:	rubygem(gtk2)
 BuildRequires:  rubygem-native-package-installer
 BuildRequires:	rubygem-rake
 
@@ -51,9 +46,6 @@ mkdir -p %{buildroot}%{gem_dir} %{buildroot}%{gem_extdir_mri}
 
 cp -a .%{gem_dir}/* \
     %{buildroot}/%{gem_dir}/
-
-#cp -a .%{gem_extdir_mri}/{gem.build_complete,*.so,*.h} \
-#    %{buildroot}/%{gem_extdir_mri}/
 
 %files
 %{gem_instdir}/lib/*.rb
