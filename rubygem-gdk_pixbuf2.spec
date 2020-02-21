@@ -15,6 +15,7 @@ BuildRequires:  rubygems-devel
 BuildRequires:  rubygem-glib2-devel
 BuildRequires:  rubygem-pkg-config
 BuildRequires:  rubygem-cairo-devel
+BuildRequires:	rubygem-gio2
 BuildRequires:  rubygem-gio2-devel
 BuildRequires:  ruby-devel
 BuildRequires:  pkgconfig(gtk+-2.0)
