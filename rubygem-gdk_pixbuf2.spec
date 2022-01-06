@@ -1,4 +1,4 @@
-
+%define  _empty_manifest_terminate_build 0
 Summary:	Ruby binding of GdkPixbuf-2.x
 Name:		rubygem-gdk_pixbuf2
 Version:	3.4.9
