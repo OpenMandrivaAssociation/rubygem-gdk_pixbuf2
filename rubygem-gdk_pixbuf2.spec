@@ -5,7 +5,7 @@ Version:	3.4.9
 Release:	1
 Group:		Development/Ruby
 License:	GPLv2+ or Ruby
-URL:		http://ruby-gnome2.sourceforge.jp/
+URL:		https://ruby-gnome2.sourceforge.jp/
 Source0:	http://rubygems.org/gems/gdk_pixbuf2-%{version}.gem
 BuildRequires:	ruby-devel
 BuildRequires:  rubygem-pkg-config
